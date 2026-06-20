@@ -134,7 +134,7 @@ st.markdown("""
     </svg>
     EE200: Audio Fingerprinting
 </div>
-<div class="app-subtitle">Signals, Systems & Networks &bull; Project Demo</div>
+<div class="app-subtitle">Signals, Systems & Networks &bull; Project</div>
 """, unsafe_allow_html=True)
 
 # Helper function to load DB
