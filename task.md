@@ -1,0 +1,23 @@
+# Task List: Audio Fingerprinting App & Notebook
+
+- [x] Create Python packages and configurations
+  - [x] Implement `requirements.txt`
+  - [x] Implement `fingerprinter.py` (Core audio fingerprinting algorithm)
+  - [x] Implement `index_songs.py` (Song database builder script)
+- [x] Create the Streamlit Application (`app.py`)
+  - [x] Tab 1: Library overview (list indexed tracks, show simple stats)
+  - [x] Tab 2: Single-Clip Identification (display spectrogram, constellation map, offset histogram, candidates table)
+  - [x] Tab 3: Batch Identification (batch uploads, predict all, download results.csv)
+  - [x] Add custom CSS styling (dark-themed premium visual design matching the video screenshots)
+- [x] Create the Jupyter Notebook (`audio_fingerprinting.ipynb`)
+  - [x] Core matching functions
+  - [x] Experiments: Window size, Single vs Paired, Noise addition, Pitch shift / Time stretch
+  - [x] Documentation of steps and code for Google Colab
+- [x] Provide Sample files and test
+  - [x] Create a script to generate simple mock audio files to test the integration locally
+  - [x] Run a test index and local validation
+- [x] Optimize database schema and deployment
+  - [x] Implement integer-packed hash key representation in `fingerprinter.py`
+  - [x] Re-index the 50 songs to create optimized database
+  - [x] Verify Streamlit app with optimized database locally
+- [x] Create a comprehensive Walkthrough (`walkthrough.md`)
